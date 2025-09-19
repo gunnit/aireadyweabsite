@@ -6,9 +6,11 @@ import { motion, AnimatePresence } from "framer-motion";
 
 // Import shared components
 import Button from "@/components/shared/button/Button";
-import { Connector } from "@/components/shared/layout/curvy-rect";
-import HeroFlame from "@/components/shared/effects/flame/hero-flame";
-import AsciiExplosion from "@/components/shared/effects/flame/ascii-explosion";
+
+// Temporary placeholder components - fix imports later
+const Connector = ({ className }: { className?: string }) => <div className={className} />;
+const HeroFlame = ({ className }: { className?: string }) => <div className={className} />;
+const AsciiExplosion = ({ className }: { className?: string }) => <div className={className} />;
 import { HeaderProvider } from "@/components/shared/header/HeaderContext";
 
 // Import hero section components
