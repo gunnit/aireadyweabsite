@@ -3,7 +3,7 @@ import { GeistMono } from "geist/font/mono";
 import { Roboto_Mono } from "next/font/google";
 import ColorStyles from "@/components/shared/color-styles/color-styles";
 import Scrollbar from "@/components/ui/scrollbar";
-import "styles/main.css";
+import "@/styles/main.css";
 
 const robotoMono = Roboto_Mono({
   subsets: ["latin"],
