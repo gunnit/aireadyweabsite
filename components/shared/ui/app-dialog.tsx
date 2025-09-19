@@ -2,8 +2,8 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import CurvyRect from "@/components/shared/layout/curvy-rect";
-import { cn } from "@/utils/cn";
+import CurvyRect from "../layout/curvy-rect";
+import { cn } from "../../../utils/cn";
 import {
   Dialog,
   DialogTrigger,
@@ -15,7 +15,7 @@ import {
   DialogTitle,
   DialogDescription,
   DialogContent as ShadDialogContent,
-} from "@/components/ui/shadcn/dialog";
+} from "../../ui/shadcn/dialog";
 
 type AppDialogContentProps = React.ComponentPropsWithoutRef<
   typeof ShadDialogContent

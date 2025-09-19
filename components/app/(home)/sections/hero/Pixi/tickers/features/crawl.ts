@@ -1,7 +1,7 @@
 import { animate } from "motion";
 
-import { Ticker } from "@/components/shared/pixi/Pixi";
-import { sleep } from "@/utils/sleep";
+import { Ticker } from "../../../../../../shared/pixi/Pixi";
+import { sleep } from "../../../../../../utils/sleep";
 
 import { CELL_SIZE, MAIN_COLOR } from "./cell";
 import AnimatedRect, { IAnimatedRect } from "./components/AnimatedRect";

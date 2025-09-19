@@ -1,8 +1,7 @@
 "use client";
 
-import { cn } from "@/utils/cn";
-import { useState, useEffect } from "react";
-import ScrambleText from "@/components/ui/motion/scramble-text";
+import { cn } from "../../../utils/cn";
+import ScrambleText from "../../ui/motion/scramble-text";
 
 export const Shimmer = ({
   className,

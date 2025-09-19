@@ -2,12 +2,12 @@
 
 import { useEffect, useState } from "react";
 
-import { Connector } from "@/components/shared/layout/curvy-rect";
+import { Connector } from "../../../shared/layout/curvy-rect";
 import {
   useHeaderContext,
   useHeaderHeight,
-} from "@/components/shared/header/HeaderContext";
-import { cn } from "@/utils/cn";
+} from "../../../shared/header/HeaderContext";
+import { cn } from "../../../../../utils/cn";
 
 export const BackgroundOuterPiece = () => {
   const [noRender, setNoRender] = useState(false);

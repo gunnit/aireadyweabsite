@@ -1,9 +1,9 @@
 import { animate, AnimatePresence, cubicBezier, motion } from "motion/react";
 import { useEffect, useMemo, useRef, useState } from "react";
 
-import { cn } from "@/utils/cn";
-import { lockBody } from "@/components/shared/lockBody";
-import PortalToBody from "@/components/shared/utils/portal-to-body";
+import { cn } from "../../../../utils/cn";
+import { lockBody } from "../../../shared/lockBody";
+import PortalToBody from "../../../shared/utils/portal-to-body";
 
 export default function Combobox({
   placeholder,

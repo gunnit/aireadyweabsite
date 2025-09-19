@@ -1,15 +1,15 @@
 import { animate } from "motion";
 import { Fragment, useRef } from "react";
 
-import EndpointsSearch from "@/components/app/(home)/sections/endpoints/EndpointsSearch/EndpointsSearch";
-import EndpointsCrawl from "@/components/app/(home)/sections/endpoints/EndpointsCrawl/EndpointsCrawl";
-import EndpointsMap from "@/components/app/(home)/sections/endpoints/EndpointsMap/EndpointsMap";
-import EndpointsScrape from "@/components/app/(home)/sections/endpoints/EndpointsScrape/EndpointsScrape";
-import EndpointsExtract from "@/components/app/(home)/sections/endpoints/EndpointsExtract/EndpointsExtract";
+import EndpointsSearch from "../../endpoints/EndpointsSearch/EndpointsSearch";
+import EndpointsCrawl from "../../endpoints/EndpointsCrawl/EndpointsCrawl";
+import EndpointsMap from "../../endpoints/EndpointsMap/EndpointsMap";
+import EndpointsScrape from "../../endpoints/EndpointsScrape/EndpointsScrape";
+import EndpointsExtract from "../../endpoints/EndpointsExtract/EndpointsExtract";
 
-import { cn } from "@/utils/cn";
-import Tooltip from "@/components/ui/shadcn/tooltip";
-import { Endpoint } from "@/components/shared/Playground/Context/types";
+import { cn } from "../../../../../utils/cn";
+import Tooltip from "../../../../ui/shadcn/tooltip";
+import { Endpoint } from "../../../../shared/Playground/Context/types";
 
 export const tabs = [
   {

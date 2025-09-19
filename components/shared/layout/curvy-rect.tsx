@@ -1,6 +1,5 @@
-import { cn } from "@/utils/cn";
-
-import Curve from "@/components/shared/icons/curve";
+import { cn } from "../../../utils/cn";
+import Curve from "../icons/curve";
 
 interface CurvyRectProps extends React.HTMLAttributes<HTMLDivElement> {
   allSides?: boolean;

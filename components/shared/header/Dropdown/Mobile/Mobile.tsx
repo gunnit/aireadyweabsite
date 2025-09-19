@@ -1,13 +1,13 @@
 import { Fragment } from "react";
 
-import Button from "@/components/ui/shadcn/button";
+import Button from "../../../ui/shadcn/button";
 import {
   ConnectorToBottom,
   ConnectorToLeft,
   ConnectorToRight,
-} from "@/components/shared/layout/curvy-rect";
-import HeaderGithubClient from "@/components/shared/header/Github/GithubClient";
-import { NAV_ITEMS } from "@/components/shared/header/Nav/Nav";
+} from "../../layout/curvy-rect";
+import HeaderGithubClient from "../../Github/GithubClient";
+import { NAV_ITEMS } from "../../Nav/Nav";
 
 import HeaderDropdownMobileItem from "./Item/Item";
 import Link from "next/link";

@@ -3,8 +3,8 @@
 import { animate } from "motion";
 import { useEffect, useRef } from "react";
 
-import { cn } from "@/utils/cn";
-import initCanvas from "@/utils/init-canvas";
+import { cn } from "../../../../../utils/cn";
+import initCanvas from "../../../../../utils/init-canvas";
 
 export default function EndpointsExtract({
   active,

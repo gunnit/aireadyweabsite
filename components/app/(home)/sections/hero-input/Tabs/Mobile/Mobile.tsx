@@ -2,9 +2,9 @@
 import { animate, AnimatePresence, cubicBezier, motion } from "motion/react";
 import { useEffect, useRef, useState } from "react";
 
-import { tabs } from "@/components/app/(home)/sections/hero-input/Tabs/Tabs";
-import { cn } from "@/utils/cn";
-import { Endpoint } from "@/components/shared/Playground/Context/types";
+import { tabs } from "../Tabs";
+import { cn } from "../../../../../../utils/cn";
+import { Endpoint } from "../../../../../shared/Playground/Context/types";
 
 export default function HeroInputTabsMobile(props: {
   setTab: (tab: Endpoint) => void;

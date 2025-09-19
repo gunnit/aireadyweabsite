@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 import { HTMLAttributes } from "react";
 
-import { cn } from "@/utils/cn";
+import { cn } from "../../../../utils/cn";
 
 function Badge({ ...attrs }: HTMLAttributes<HTMLDivElement>) {
   return (

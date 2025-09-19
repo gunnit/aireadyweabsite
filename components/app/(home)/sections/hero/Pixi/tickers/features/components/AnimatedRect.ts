@@ -3,7 +3,7 @@
 import { AnimationOptions, cubicBezier } from "motion";
 import { Application, Container, Graphics, Sprite } from "pixi.js";
 
-import { isDestroyed } from "@/components/shared/pixi/utils";
+import { isDestroyed } from "../../../../../../shared/pixi/utils";
 
 type Props = {
   app: Application;

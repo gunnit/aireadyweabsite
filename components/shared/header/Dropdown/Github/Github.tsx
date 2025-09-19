@@ -1,4 +1,4 @@
-import Image from "@/components/shared/image/Image";
+import Image from "../../../image/Image";
 
 import GithubFlame from "./Flame/Flame";
 

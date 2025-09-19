@@ -1,4 +1,4 @@
-import { Ticker } from "@/components/shared/pixi/Pixi";
+import { Ticker } from "../../../../../../shared/pixi/Pixi";
 
 import AnimatedRect from "./components/AnimatedRect";
 import BlinkingContainer from "./components/BlinkingContainer";

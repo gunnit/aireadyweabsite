@@ -1,5 +1,5 @@
 import { ArrowUpRight } from "lucide-react";
-import { cn } from "@/utils/cn";
+import { cn } from "../../../../../utils/cn";
 
 export interface NavItemRowProps {
   icon: React.ReactNode;

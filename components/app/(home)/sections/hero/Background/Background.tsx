@@ -2,7 +2,7 @@
 
 import { Fragment } from "react";
 
-import CurvyRect from "@/components/shared/layout/curvy-rect";
+import CurvyRect from "../../../shared/layout/curvy-rect";
 
 import CenterStar from "./_svg/CenterStar";
 

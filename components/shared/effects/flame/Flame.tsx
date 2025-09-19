@@ -2,9 +2,8 @@
 
 import { HTMLAttributes, useEffect, useRef } from "react";
 
-import { cn } from "@/utils/cn";
-import { setIntervalOnVisible } from "@/utils/set-timeout-on-visible";
-
+import { cn } from "../../../../utils/cn";
+import { setIntervalOnVisible } from "../../../../utils/set-timeout-on-visible";
 import data from "./hero-flame-data.json";
 
 export default function CoreFlame(attrs: HTMLAttributes<HTMLDivElement>) {

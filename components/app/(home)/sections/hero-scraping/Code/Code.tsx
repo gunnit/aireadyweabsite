@@ -1,10 +1,10 @@
 import { useCallback, useEffect, useState } from "react";
 
-import CurvyRect, { Connector } from "@/components/shared/layout/curvy-rect";
-import { encryptText } from "@/components/app/(home)/sections/hero/Title/Title";
+import CurvyRect, { Connector } from "../../../shared/layout/curvy-rect";
+import { encryptText } from "../../hero/Title/Title";
 
 import HeroScrapingCodeLoading from "./Loading/Loading";
-import Code from "@/components/ui/code";
+import Code from "../../../ui/code";
 
 const URL = {
   value: "https://example.com",

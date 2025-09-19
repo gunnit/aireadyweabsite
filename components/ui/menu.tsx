@@ -5,8 +5,8 @@ import * as React from "react";
 import { createPortal } from "react-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import type { HTMLMotionProps } from "framer-motion";
-import { cn } from "@/utils/cn";
-import { useDropdownHover } from "@/components/hooks/use-dropdown-hover";
+import { cn } from "../../utils/cn";
+import { useDropdownHover } from "../hooks/use-dropdown-hover";
 
 interface MenuContextValue {
   open: boolean;

@@ -1,5 +1,5 @@
-import CurvyRect from "@/components/shared/layout/curvy-rect";
-import { cn } from "@/utils/cn";
+import CurvyRect from "../../layout/curvy-rect";
+import { cn } from "../../../../../utils/cn";
 import { ArrowUpRight } from "lucide-react";
 
 interface Props {

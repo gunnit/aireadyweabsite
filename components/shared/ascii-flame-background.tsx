@@ -1,9 +1,9 @@
 "use client";
 
 import React, { useEffect, useRef } from "react";
-import { cn } from "@/utils/cn";
-import { setIntervalOnVisible } from "@/utils/set-timeout-on-visible";
-import data from "@/components/shared/effects/flame/explosion-data.json";
+import { cn } from "../../../utils/cn";
+import { setIntervalOnVisible } from "../../../utils/set-timeout-on-visible";
+import data from "../effects/flame/explosion-data.json";
 
 interface AsciiFlameBackgroundProps {
   className?: string;

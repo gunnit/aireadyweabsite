@@ -2,9 +2,9 @@
 
 import { useEffect, useRef } from "react";
 
-import data from "@/components/shared/effects/flame/hero-flame-data.json";
-import { cn } from "@/utils/cn";
-import { setIntervalOnVisible } from "@/utils/set-timeout-on-visible";
+import data from "../shared/effects/flame/hero-flame-data.json";
+import { cn } from "../../utils/cn";
+import { setIntervalOnVisible } from "../../utils/set-timeout-on-visible";
 
 function LoadingDashboardFlame({ flameClassName }: { flameClassName: string }) {
   const ref = useRef<HTMLDivElement>(null);

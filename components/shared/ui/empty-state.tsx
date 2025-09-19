@@ -1,8 +1,8 @@
 "use client";
 
 import React from "react";
-import { cn } from "@/utils/cn";
-import { AsciiExplosion } from "@/components/shared/effects/flame";
+import { cn } from "../../../utils/cn";
+import { AsciiExplosion } from "../effects/flame";
 
 interface EmptyStateProps {
   title?: string;

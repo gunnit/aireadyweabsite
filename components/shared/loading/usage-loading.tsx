@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import ScrambleText from "@/components/ui/motion/scramble-text";
+import ScrambleText from "../../ui/motion/scramble-text";
 
 export function UsageLoadingText({ text = "Loading..." }: { text?: string }) {
   const [isInView, setIsInView] = useState(false);

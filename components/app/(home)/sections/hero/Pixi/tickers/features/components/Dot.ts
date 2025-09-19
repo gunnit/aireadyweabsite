@@ -1,4 +1,4 @@
-import { MAIN_COLOR } from "@/components/app/(home)/sections/hero/Pixi/tickers/features/cell";
+import { MAIN_COLOR } from "../cell";
 
 import AnimatedRect from "./AnimatedRect";
 

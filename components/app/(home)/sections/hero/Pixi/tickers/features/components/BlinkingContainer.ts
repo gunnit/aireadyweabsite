@@ -2,7 +2,7 @@
 
 import { Application, Graphics } from "pixi.js";
 
-import { CELL_SIZE } from "@/components/app/(home)/sections/hero/Pixi/tickers/features/cell";
+import { CELL_SIZE } from "../cell";
 
 import AnimatedRect from "./AnimatedRect";
 

@@ -1,8 +1,8 @@
 "use client";
 
 import React from "react";
-import { cn } from "@/utils/cn";
-import { CoreFlame } from "@/components/shared/effects/flame";
+import { cn } from "../../../utils/cn";
+import { CoreFlame } from "../effects/flame";
 
 interface LoadingStateProps {
   message?: string;

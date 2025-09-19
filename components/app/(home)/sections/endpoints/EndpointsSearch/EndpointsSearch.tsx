@@ -1,7 +1,7 @@
 /* eslint-disable @stylistic/array-element-newline */
 "use client";
 
-import initCanvas from "@/utils/init-canvas";
+import initCanvas from "../../../../../utils/init-canvas";
 import { animate } from "motion";
 import { useEffect, useRef } from "react";
 

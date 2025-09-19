@@ -3,8 +3,8 @@
 import { animate } from "motion";
 import { useEffect, useRef, useState } from "react";
 
-import CurvyRect from "@/components/shared/layout/curvy-rect";
-import { sleep } from "@/utils/sleep";
+import CurvyRect from "../../../shared/layout/curvy-rect";
+import { sleep } from "../../../../../utils/sleep";
 
 import BrowserMobile from "./_svg/BrowserMobile";
 import BrowserTab from "./_svg/BrowserTab";

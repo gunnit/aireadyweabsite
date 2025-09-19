@@ -1,5 +1,5 @@
-import { CurvyRect } from "@/components/shared/ui";
-import Image from "@/components/shared/image/Image";
+import { CurvyRect } from "../../../shared/ui";
+import Image from "../../../shared/image/Image";
 import "./Logocloud.css";
 
 export default function Logocloud() {

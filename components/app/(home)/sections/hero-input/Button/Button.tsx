@@ -1,8 +1,8 @@
 import { AnimatePresence, motion } from "motion/react";
 
-import AnimatedWidth from "@/components/shared/layout/animated-width";
-import ArrowRight from "@/components/app/(home)/sections/hero-input/_svg/ArrowRight";
-import Button from "@/components/shared/button/Button";
+import AnimatedWidth from "../../../shared/layout/animated-width";
+import ArrowRight from "./_svg/ArrowRight";
+import Button from "../../../shared/button/Button";
 
 export default function HeroInputSubmitButton({
   tab,

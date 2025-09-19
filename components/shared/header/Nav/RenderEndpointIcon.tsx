@@ -1,6 +1,6 @@
 "use client";
 
-import EndpointsScrape from "@/components/app/(home)/sections/endpoints/EndpointsScrape/EndpointsScrape";
+import EndpointsScrape from "../../../app/(home)/sections/endpoints/EndpointsScrape/EndpointsScrape";
 import { ComponentProps } from "react";
 import { useMediaQuery } from "usehooks-ts";
 

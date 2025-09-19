@@ -1,5 +1,5 @@
-import { Ticker } from "@/components/shared/pixi/Pixi";
-import setTimeoutOnVisible from "@/utils/set-timeout-on-visible";
+import { Ticker } from "../../../../../../shared/pixi/Pixi";
+import setTimeoutOnVisible from "../../../../../../utils/set-timeout-on-visible";
 
 import cell from "./cell";
 import cellReveal from "./cellReveal";

@@ -1,6 +1,6 @@
 "use client";
 
-import Button from "@/components/ui/shadcn/button";
+import Button from "../../../ui/shadcn/button";
 import GithubIcon from "./_svg/GithubIcon";
 
 export default function HeaderGithubClient() {

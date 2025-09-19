@@ -1,9 +1,9 @@
 import { AnimatePresence, motion } from "motion/react";
 import { useEffect, useState } from "react";
 
-import { encryptText } from "@/components/app/(home)/sections/hero/Title/Title";
-import AnimatedWidth from "@/components/shared/layout/animated-width";
-import Spinner from "@/components/ui/spinner";
+import { encryptText } from "../../../../hero/Title/Title";
+import AnimatedWidth from "../../../../shared/layout/animated-width";
+import Spinner from "../../../../ui/spinner";
 
 export default function HeroScrapingCodeLoading({
   finished,

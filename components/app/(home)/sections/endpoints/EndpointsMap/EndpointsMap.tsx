@@ -2,7 +2,7 @@
 
 import { ComponentProps } from "react";
 
-import EndpointsScrape from "@/components/app/(home)/sections/endpoints/EndpointsScrape/EndpointsScrape";
+import EndpointsScrape from "../EndpointsScrape/EndpointsScrape";
 
 export default function EndpointsMap(
   props: ComponentProps<typeof EndpointsScrape>,

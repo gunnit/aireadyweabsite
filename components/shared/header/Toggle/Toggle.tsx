@@ -1,8 +1,8 @@
 "use client";
 
-import Button from "@/components/ui/shadcn/button";
-import { useHeaderContext } from "@/components/shared/header/HeaderContext";
-import { cn } from "@/utils/cn";
+import Button from "../../../ui/shadcn/button";
+import { useHeaderContext } from "../HeaderContext";
+import { cn } from "../../../utils/cn";
 
 export default function HeaderToggle({
   dropdownContent,

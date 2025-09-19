@@ -4,7 +4,7 @@
 import { animate } from "motion";
 import { useEffect, useRef } from "react";
 
-import initCanvas from "@/utils/init-canvas";
+import initCanvas from "../../../../../utils/init-canvas";
 
 export default function EndpointsExtract({ size = 20 }: { size?: number }) {
   const canvasRef = useRef<HTMLCanvasElement>(null);

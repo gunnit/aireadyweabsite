@@ -4,8 +4,8 @@ import React, { useEffect, useRef, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { X } from "lucide-react";
 import { useAtom } from "jotai";
-import { cn } from "@/utils/cn";
-import { isMobileSheetOpenAtom } from "@/atoms/sheets";
+import { cn } from "../../../utils/cn";
+import { isMobileSheetOpenAtom } from "../../../atoms/sheets";
 
 interface MobileSheetProps {
   isOpen: boolean;

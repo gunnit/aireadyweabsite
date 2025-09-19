@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import { ComponentProps } from "react";
 
-import compressorConfig from "@/public/compressor.json";
+import compressorConfig from "../../../public/compressor.json";
 
 interface Props extends ComponentProps<"img"> {
   src: string;

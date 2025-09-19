@@ -1,4 +1,4 @@
-import { Ticker } from "@/components/shared/pixi/Pixi";
+import { Ticker } => "../../../../../../shared/pixi/Pixi";
 import AnimatedRect from "./components/AnimatedRect";
 
 type Props = Parameters<Ticker>[0] & {

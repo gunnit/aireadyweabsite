@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { encryptText } from '@/components/app/(home)/sections/hero/Title/Title';
+import { encryptText } from "../components/app/(home)/sections/hero/Title/Title";
 
 
 

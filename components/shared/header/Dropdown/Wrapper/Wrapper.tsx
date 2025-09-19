@@ -4,10 +4,10 @@
 import { AnimatePresence, cubicBezier, motion } from "motion/react";
 import { useEffect } from "react";
 
-import { Connector } from "@/components/shared/layout/curvy-rect";
-import { useHeaderContext } from "@/components/shared/header/HeaderContext";
-import { lockBody } from "@/components/shared/lockBody";
-import AnimatedHeight from "@/components/shared/layout/animated-height";
+import { Connector } from "../../layout/curvy-rect";
+import { useHeaderContext } from "../HeaderContext";
+import { lockBody } from "../../lockBody";
+import AnimatedHeight from "../../layout/animated-height";
 export default function HeaderDropdownWrapper() {
   const {
     dropdownContent,

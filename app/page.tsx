@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 // Import shared components
-import Button from "@/components/shared/button/Button";
+import Button from "../components/shared/button/Button";
 
 // Temporary placeholder components - fix imports later
 const Connector = ({ className }: { className?: string }) => <div className={className} />;

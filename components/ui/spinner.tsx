@@ -3,8 +3,8 @@ import { HTMLAttributes, memo, useEffect, useRef } from "react";
 import { animate } from "motion";
 import { AnimatePresence, motion } from "motion/react";
 
-import Check from "@/components/shared/icons/check";
-import { cn } from "@/utils/cn";
+import Check from "../shared/icons/check";
+import { cn } from "../../utils/cn";
 
 export default memo(function Spinner({
   finished,

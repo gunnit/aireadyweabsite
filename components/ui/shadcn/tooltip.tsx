@@ -4,8 +4,8 @@ import { AnimatePresence, motion } from "motion/react";
 import { nanoid } from "nanoid";
 import { useEffect, useRef, useState } from "react";
 
-import PortalToBody from "@/components/shared/utils/portal-to-body";
-import { cn } from "@/utils/cn";
+import PortalToBody from "../../../shared/utils/portal-to-body";
+import { cn } from "../../../../utils/cn";
 
 export default function Tooltip({
   delay = 0.5,

@@ -1,12 +1,12 @@
-import EndpointsCrawl from "@/components/app/(home)/sections/endpoints/EndpointsCrawl/EndpointsCrawl";
-import EndpointsScrape from "@/components/app/(home)/sections/endpoints/EndpointsScrape/EndpointsScrape";
-import EndpointsSearch from "@/components/app/(home)/sections/endpoints/EndpointsSearch/EndpointsSearch";
-import EndpointsExtract from "@/components/app/(home)/sections/endpoints/Extract/Extract";
-import EndpointsMcp from "@/components/app/(home)/sections/endpoints/Mcp/Mcp";
-import { RenderEndpointIcon } from "@/components/shared/header/Nav/RenderEndpointIcon";
-import HeaderDropdownContent from "@/components/shared/header/Dropdown/Content/Content";
-import HeaderDropdownGithub from "@/components/shared/header/Dropdown/Github/Github";
-import HeaderDropdownStories from "@/components/shared/header/Dropdown/Stories/Stories";
+import EndpointsCrawl from "../../../app/(home)/sections/endpoints/EndpointsCrawl/EndpointsCrawl";
+import EndpointsScrape from "../../../app/(home)/sections/endpoints/EndpointsScrape/EndpointsScrape";
+import EndpointsSearch from "../../../app/(home)/sections/endpoints/EndpointsSearch/EndpointsSearch";
+import EndpointsExtract from "../../../app/(home)/sections/endpoints/Extract/Extract";
+import EndpointsMcp from "../../../app/(home)/sections/endpoints/Mcp/Mcp";
+import { RenderEndpointIcon } from "./RenderEndpointIcon";
+import HeaderDropdownContent from "../Dropdown/Content/Content";
+import HeaderDropdownGithub from "../Dropdown/Github/Github";
+import HeaderDropdownStories from "../Dropdown/Stories/Stories";
 
 import Affiliate from "./_svg/Affiliate";
 import Api from "./_svg/Api";
@@ -21,9 +21,9 @@ import Student from "./_svg/Student";
 import Templates from "./_svg/Templates";
 import HeaderNavItem from "./Item/Item";
 import MCPIcon from "./_svg/MCP";
-import Image from "@/components/shared/image/Image";
-import GithubFlame from "@/components/shared/header/Dropdown/Github/Flame/Flame";
-import EndpointsMap from "@/components/app/(home)/sections/endpoints/EndpointsMap/EndpointsMap";
+import Image from "../../image/Image";
+import GithubFlame from "../Dropdown/Github/Flame/Flame";
+import EndpointsMap from "../../../app/(home)/sections/endpoints/EndpointsMap/EndpointsMap";
 
 export default function HeaderNav() {
   return (

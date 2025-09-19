@@ -4,8 +4,8 @@ import { nanoid } from "nanoid";
 import { Application, ApplicationOptions } from "pixi.js";
 import { HTMLAttributes, useMemo, useRef } from "react";
 
-import useDebouncedEffect from "@/hooks/useDebouncedEffect";
-import { cn } from "@/utils/cn";
+import useDebouncedEffect from "../../../hooks/useDebouncedEffect";
+import { cn } from "../../../utils/cn";
 
 import { isDestroyed } from "./utils";
 

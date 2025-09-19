@@ -1,8 +1,8 @@
 "use client";
 
 import { HTMLAttributes, useEffect, useRef } from "react";
-import { cn } from "@/utils/cn";
-import { setIntervalOnVisible } from "@/utils/set-timeout-on-visible";
+import { cn } from "../../../../utils/cn";
+import { setIntervalOnVisible } from "../../../../utils/set-timeout-on-visible";
 import data from "./explosion-data.json";
 
 interface SubtleExplosionProps extends HTMLAttributes<HTMLDivElement> {

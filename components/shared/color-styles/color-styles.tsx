@@ -1,4 +1,4 @@
-import colors from "@/styles/colors.json";
+import colors from "../../../styles/colors.json";
 
 const TYPED_COLORS = colors as unknown as Record<
   string,

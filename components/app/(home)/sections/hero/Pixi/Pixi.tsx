@@ -2,7 +2,7 @@
 
 import { Suspense, lazy, useState, useEffect } from "react";
 
-const Pixi = lazy(() => import("@/components/shared/pixi/Pixi"));
+const Pixi = lazy(() => import("../../../shared/pixi/Pixi"));
 import features from "./tickers/features";
 
 function PixiContent() {

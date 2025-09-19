@@ -2,7 +2,7 @@
 
 import { useEffect, useRef } from "react";
 
-import { setIntervalOnVisible } from "@/utils/set-timeout-on-visible";
+import { setIntervalOnVisible } from "../../../../utils/set-timeout-on-visible";
 import data from "./hero-flame-data.json";
 
 export default function HeroFlame() {

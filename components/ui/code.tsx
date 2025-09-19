@@ -1,7 +1,7 @@
 import { PrismLight as SyntaxHighlighter } from "react-syntax-highlighter";
 import javascript from "react-syntax-highlighter/dist/esm/languages/prism/javascript";
 
-import "@/styles/components/code.css";
+import "../../styles/components/code.css";
 
 export default function Code({
   code,

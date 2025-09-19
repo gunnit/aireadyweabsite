@@ -2,7 +2,7 @@
 
 import { CSSProperties, useEffect, useRef, useState } from "react";
 
-import { cn } from "@/utils/cn";
+import { cn } from "../../utils/cn";
 
 interface VideoProps {
   src?: string;

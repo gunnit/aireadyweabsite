@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useRef } from "react";
-import { setIntervalOnVisible } from "@/utils/set-timeout-on-visible";
+import { setIntervalOnVisible } from "../../../../../utils/set-timeout-on-visible";
 import data from "./wave-data.json";
 
 export default function SubtleWave({ className = "" }: { className?: string }) {

@@ -1,5 +1,5 @@
-import { Ticker } from "@/components/shared/pixi/Pixi";
-import PixiAssetManager from "@/components/shared/pixi/PixiAssetManager";
+import { Ticker } from "../../../../../../shared/pixi/Pixi";
+import PixiAssetManager from "../../../../../../shared/pixi/PixiAssetManager";
 import { RenderTexture, Sprite, Text } from "pixi.js";
 
 // Add more contrast to the ASCII_CHARS and ensure 'X' is used

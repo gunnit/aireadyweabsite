@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { AnimatedDotIcon } from "@/components/shared/animated-dot-icon";
+import { AnimatedDotIcon } from "../animated-dot-icon";
 
 interface AsciiDotLoaderProps {
   size?: number;
