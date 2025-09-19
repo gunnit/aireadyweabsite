@@ -11,27 +11,44 @@ import Button from "@/components/shared/button/Button";
 const Connector = ({ className }: { className?: string }) => <div className={className} />;
 const HeroFlame = ({ className }: { className?: string }) => <div className={className} />;
 const AsciiExplosion = ({ className }: { className?: string }) => <div className={className} />;
-import { HeaderProvider } from "@/components/shared/header/HeaderContext";
+// import { HeaderProvider } from "@/components/shared/header/HeaderContext";
+const HeaderProvider = ({ children }: any) => <>{children}</>;
 
-// Import hero section components
-import HomeHeroBackground from "@/components/app/(home)/sections/hero/Background/Background";
-import { BackgroundOuterPiece } from "@/components/app/(home)/sections/hero/Background/BackgroundOuterPiece";
-import HomeHeroBadge from "@/components/app/(home)/sections/hero/Badge/Badge";
-import HomeHeroPixi from "@/components/app/(home)/sections/hero/Pixi/Pixi";
-import HomeHeroTitle from "@/components/app/(home)/sections/hero/Title/Title";
-import HeroInputSubmitButton from "@/components/app/(home)/sections/hero-input/Button/Button";
-import Globe from "@/components/app/(home)/sections/hero-input/_svg/Globe";
-import HeroScraping from "@/components/app/(home)/sections/hero-scraping/HeroScraping";
-import { Endpoint } from "@/components/shared/Playground/Context/types";
-import InlineResults from "@/components/app/(home)/sections/ai-readiness/InlineResults";
-import ControlPanel from "@/components/app/(home)/sections/ai-readiness/ControlPanel";
+// Import hero section components - temporarily disabled
+// import HomeHeroBackground from "@/components/app/(home)/sections/hero/Background/Background";
+// import { BackgroundOuterPiece } from "@/components/app/(home)/sections/hero/Background/BackgroundOuterPiece";
+const HomeHeroBackground = () => <div />;
+const BackgroundOuterPiece = () => <div />;
+// import HomeHeroBadge from "@/components/app/(home)/sections/hero/Badge/Badge";
+// import HomeHeroPixi from "@/components/app/(home)/sections/hero/Pixi/Pixi";
+// import HomeHeroTitle from "@/components/app/(home)/sections/hero/Title/Title";
+const HomeHeroBadge = () => <div />;
+const HomeHeroPixi = () => <div />;
+const HomeHeroTitle = () => <div />;
+// import HeroInputSubmitButton from "@/components/app/(home)/sections/hero-input/Button/Button";
+// import Globe from "@/components/app/(home)/sections/hero-input/_svg/Globe";
+// import HeroScraping from "@/components/app/(home)/sections/hero-scraping/HeroScraping";
+const HeroInputSubmitButton = ({ onClick, disabled, children }: any) => <button onClick={onClick} disabled={disabled}>{children}</button>;
+const Globe = () => <div />;
+const HeroScraping = ({ isAnalyzing, analysisStep }: any) => <div>{isAnalyzing ? `Step ${analysisStep}` : ''}</div>;
+// import { Endpoint } from "@/components/shared/Playground/Context/types";
+enum Endpoint { Scrape = "scrape", Extract = "extract" }
+// import InlineResults from "@/components/app/(home)/sections/ai-readiness/InlineResults";
+// import ControlPanel from "@/components/app/(home)/sections/ai-readiness/ControlPanel";
+const InlineResults = ({ analysisData }: any) => <div>{JSON.stringify(analysisData)}</div>;
+const ControlPanel = ({ showResults, onReset, hasOpenAIKey }: any) => <div><button onClick={onReset}>Reset</button></div>;
 
-// Import header components
-import HeaderBrandKit from "@/components/shared/header/BrandKit/BrandKit";
-import HeaderWrapper from "@/components/shared/header/Wrapper/Wrapper";
-import HeaderDropdownWrapper from "@/components/shared/header/Dropdown/Wrapper/Wrapper";
-import GithubIcon from "@/components/shared/header/Github/_svg/GithubIcon";
-import ButtonUI from "@/components/ui/shadcn/button";
+// Import header components - temporarily disabled
+// import HeaderBrandKit from "@/components/shared/header/BrandKit/BrandKit";
+// import HeaderWrapper from "@/components/shared/header/Wrapper/Wrapper";
+// import HeaderDropdownWrapper from "@/components/shared/header/Dropdown/Wrapper/Wrapper";
+// import GithubIcon from "@/components/shared/header/Github/_svg/GithubIcon";
+// import ButtonUI from "@/components/ui/shadcn/button";
+const HeaderBrandKit = () => <div />;
+const HeaderWrapper = ({ children }: any) => <div>{children}</div>;
+const HeaderDropdownWrapper = () => <div />;
+const GithubIcon = () => <div />;
+const ButtonUI = ({ children, onClick, variant, className }: any) => <button onClick={onClick} className={className}>{children}</button>;
 
 export default function StyleGuidePage() {
   const [tab, setTab] = useState<Endpoint>(Endpoint.Scrape);
