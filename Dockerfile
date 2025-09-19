@@ -16,8 +16,8 @@ COPY . .
 # Build the Next.js app
 RUN npm run build
 
-# Expose port
-EXPOSE 3000
+# Expose port (Render will override this with PORT env var)
+EXPOSE 10000
 
-# Start the application
+# Start the application (Next.js will use PORT env var automatically)
 CMD ["npm", "run", "start"]
