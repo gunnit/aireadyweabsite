@@ -1,23 +1,26 @@
-# Use Node.js 20 Alpine image
-FROM node:20-alpine
+# Use Node.js 20 image (not alpine for better compatibility)
+FROM node:20-slim
 
 # Set working directory
 WORKDIR /app
 
-# Copy package.json
+# Copy package.json only
 COPY package.json ./
 
-# Install dependencies with force flag to handle peer dependencies
-RUN npm install --force
+# Install dependencies with legacy peer deps and skip optional deps
+RUN npm install --legacy-peer-deps --omit=optional
 
-# Copy the rest of the application
+# Copy application files
 COPY . .
 
 # Build the Next.js app
 RUN npm run build
 
-# Expose port (Render will override this with PORT env var)
+# Clean dev dependencies to reduce image size
+RUN npm prune --production
+
+# The PORT env var will be provided by Render
 EXPOSE 10000
 
-# Start the application (Next.js will use PORT env var automatically)
-CMD ["npm", "run", "start"]
+# Start the production server
+CMD ["node_modules/.bin/next", "start", "-p", "10000"]
